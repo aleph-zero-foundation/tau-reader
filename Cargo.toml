@@ -1,0 +1,13 @@
+[package]
+name = "tau-reader"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Reading from S3
+aws-config = { version = "1.0.1", features = ["behavior-version-latest"] }
+aws-sdk-s3 = "1.4.0"
+tokio = { version = "1", features = ["full"] }
+
+# Deserializing points
+bellman = { git = 'https://github.com/matterinc/bellman', tag = "0.2.0"}
