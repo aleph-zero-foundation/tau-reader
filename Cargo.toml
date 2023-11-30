@@ -11,3 +11,5 @@ tokio = { version = "1", features = ["full"] }
 
 # Deserializing points
 bellman = { git = 'https://github.com/matterinc/bellman', tag = "0.2.0"}
+
+rand = "0.8.5"

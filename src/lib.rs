@@ -1,6 +1,6 @@
 pub mod aws_access;
 mod offsets;
-mod parameters;
+pub mod parameters;
 
 use crate::parameters::{BUCKET_NAME, G1_SIZE, G2_SIZE, NUMBER_OF_POWERS};
 use aws_sdk_s3::Client;
